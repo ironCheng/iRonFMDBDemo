@@ -1,6 +1,13 @@
 # iRonFMDBDemo
 FMDB Demo / FMDB 使用例子
 
+## Usage
+
+使用的时候记得要加 databaseWithDBName和closeDatabase。<br>
+
+还有不能在多线程同时调用，保证线程安全。
+
+## Code
 <pre><code>
     #import "iRonFMDB.h"
 
